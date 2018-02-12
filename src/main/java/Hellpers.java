@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 
+
 import java.util.concurrent.TimeUnit;
 
 public class Hellpers {
@@ -18,8 +19,10 @@ public class Hellpers {
 
     public void likeProduct(String url) {
         wd.get(url);
-        for (int i = 0; i <= 56; i++) {
-            wd.findElement(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']")).click();
+        WebElement list = wd.findElement(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
+
+        for (int i = 1; i < list.size(); i++) {
+            list.get(i).click();
         }
     }
 

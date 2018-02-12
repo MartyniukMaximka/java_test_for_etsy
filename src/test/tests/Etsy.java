@@ -8,7 +8,7 @@ public class Etsy extends Hellpers{
     {
         login();
         likeProduct("https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys");
-        likeProduct("https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?explicit=1&page=2&use_mmx=1");
+        /*likeProduct("https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?explicit=1&page=2&use_mmx=1");*/
 
     }
 
