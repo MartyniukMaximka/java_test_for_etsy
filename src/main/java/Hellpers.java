@@ -19,10 +19,10 @@ public class Hellpers {
 
     public void likeProduct(String url) {
         wd.get(url);
-        WebElement List = wd.findElement(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
+        List<WebElement> list = wd.findElements(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
 
-        for (int i = 1; i < List.size(); i++) {
-            List.get(i).click();
+        for (int i = 1; i < list.size(); i++) {
+            list.get(i).click();
         }
     }
 
