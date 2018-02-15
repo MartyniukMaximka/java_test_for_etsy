@@ -6,10 +6,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Hellpers {
     FirefoxDriver wd;
+    int i;
 
     @BeforeMethod
     public void setUp() throws Exception {
@@ -17,16 +19,18 @@ public class Hellpers {
         wd.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
     }
 
-    public void likeProduct(String url) {
+    public void likeProduct(String url) throws InterruptedException {
         wd.get(url);
+        Thread.sleep( 5000 ); //это временно, не нужно меня ругать!!!!!
         List<WebElement> list = wd.findElements(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
 
-        for (int i = 1; i < list.size(); i++) {
+        for (i = 0; i < list.size(); i++) {
             list.get(i).click();
+            Thread.sleep( 1000 );//это временно, не нужно меня ругать!!!!!
         }
     }
 
-    public void login() {
+    public void login() throws InterruptedException {
         wd.get("https://www.etsy.com/");
         wd.findElement(By.xpath(".//*[@id='sign-in']")).click();
         WebDriverWait wait = new WebDriverWait(wd, 10);
