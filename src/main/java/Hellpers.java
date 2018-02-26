@@ -16,7 +16,7 @@ public class Hellpers {
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
     }
 
     public void likeProduct(String url) throws InterruptedException {
@@ -33,7 +33,7 @@ public class Hellpers {
     public void login() throws InterruptedException {
         wd.get("https://www.etsy.com/");
         wd.findElement(By.xpath(".//*[@id='sign-in']")).click();
-        WebDriverWait wait = new WebDriverWait(wd, 10);
+        WebDriverWait wait = new WebDriverWait(wd, 100);
         WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("username-existing")));
         wd.findElement(By.id("username-existing")).click();
         wd.findElement(By.id("username-existing")).clear();
@@ -42,7 +42,7 @@ public class Hellpers {
         wd.findElement(By.id("password-existing")).clear();
         wd.findElement(By.id("password-existing")).sendKeys("olgastarko123");
         wd.findElement(By.id("signin-button")).click();
-        WebDriverWait wait1 = new WebDriverWait(wd, 10);
+        WebDriverWait wait1 = new WebDriverWait(wd, 100);
         WebElement sucksesLogin = wait.until(ExpectedConditions.elementToBeClickable(By.id("gnav-account-favorites-description")));
     }
 }
