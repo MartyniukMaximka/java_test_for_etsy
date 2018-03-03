@@ -1,4 +1,6 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,11 +13,14 @@ import java.util.concurrent.TimeUnit;
 
 public class Hellpers {
     FirefoxDriver wd;
-    int i;
+   // JavascriptExecutor jse = (JavascriptExecutor) wd;
+    public int i, n;
 
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
+        wd.manage().deleteAllCookies();
+        wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
     }
 
@@ -26,8 +31,13 @@ public class Hellpers {
 
         for (i = 0; i < list.size(); i++) {
             list.get(i).click();
-            Thread.sleep( 1000 );//это временно, не нужно меня ругать!!!!!
+       //   WebDriverWait wait = new WebDriverWait(wd, 120);
+        //  WebElement LikeButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']")));
+        //  Thread.sleep( 1000 );//это временно, не нужно меня ругать!!!!!
+         // jse.executeScript()
+            n=n+1;
         }
+        System.out.print("Количество кликнутых елементов = "+n);
     }
 
     public void login() throws InterruptedException {
