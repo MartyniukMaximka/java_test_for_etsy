@@ -13,31 +13,28 @@ import java.util.concurrent.TimeUnit;
 
 public class Hellpers {
     FirefoxDriver wd;
-   // JavascriptExecutor jse = (JavascriptExecutor) wd;
-    public int i, n;
+    public int i, n, l;
 
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
         wd.manage().deleteAllCookies();
         wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
 
     public void likeProduct(String url) throws InterruptedException {
         wd.get(url);
-        Thread.sleep( 5000 ); //это временно, не нужно меня ругать!!!!!
+        wd.wait(100);
         List<WebElement> list = wd.findElements(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
+        l = list.size();
 
-        for (i = 0; i < list.size(); i++) {
-            list.get(i).click();
-       //   WebDriverWait wait = new WebDriverWait(wd, 120);
-        //  WebElement LikeButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']")));
-        //  Thread.sleep( 1000 );//это временно, не нужно меня ругать!!!!!
-         // jse.executeScript()
+        for (i = 0; i < l; i++) {
+            wd.findElement(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']")).click();
             n=n+1;
         }
-        System.out.print("Количество кликнутых елементов = "+n);
+        System.out.println("Количество кликнутых елементов = "+n);
+        return;
     }
 
     public void login() throws InterruptedException {
