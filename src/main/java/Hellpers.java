@@ -25,7 +25,7 @@ public class Hellpers {
 
     public void likeProduct(String url) throws InterruptedException {
         wd.get(url);
-        wd.wait(100);
+        /*wd.wait(100);*/
         List<WebElement> list = wd.findElements(By.xpath(".//*[@class='etsy-icon not-favorited position-absolute text-white']"));
         l = list.size();
 
@@ -34,7 +34,7 @@ public class Hellpers {
             n=n+1;
         }
         System.out.println("Количество кликнутых елементов = "+n);
-        return;
+
     }
 
     public void login() throws InterruptedException {
