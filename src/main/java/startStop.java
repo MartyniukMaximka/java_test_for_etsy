@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class hellpers {
+public class startStop {
 
     protected final clickElements clickElements = new clickElements();
 

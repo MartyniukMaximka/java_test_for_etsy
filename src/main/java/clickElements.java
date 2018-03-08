@@ -5,9 +5,9 @@ import java.util.List;
 
 public class clickElements {
     protected final loginLogout loginLogout = new loginLogout();
-    public int i;
-    public int n;
-    public int sizeOfList;
+    private int i;
+    private int n;
+    private int sizeOfList;
 
     public void clickOnProductLikeButton(String url) throws InterruptedException {
         loginLogout.wd.get(url);
