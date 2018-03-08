@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class testsForEtsyStore extends hellpers {
+public class testsForEtsyStore extends startStop {
 
 
     @Test
