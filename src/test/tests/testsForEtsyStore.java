@@ -17,6 +17,13 @@ public class testsForEtsyStore extends startStop {
 
 
     }
+    @Test
+    public void clickStoreLikeButton() throws InterruptedException{
+        clickElements.loginLogout.login();
+        clickElements.clickOnStoreLikeButton("https://www.etsy.com/c/art-and-collectibles/collectibles/coins?ref=catnav-66");
+
+
+    }
 
     
 }

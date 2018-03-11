@@ -1,4 +1,5 @@
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 
@@ -14,6 +15,11 @@ public class startStop {
         clickElements.loginLogout.wd.manage().deleteAllCookies();
         clickElements.loginLogout.wd.manage().window().maximize();
         clickElements.loginLogout.wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+    }
+
+    @AfterMethod
+    public void stop() {
+        clickElements.loginLogout.wd.quit();
     }
 
 
