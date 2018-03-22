@@ -4,11 +4,7 @@
     <list default="true" id="17627309-e93b-4308-a8a6-70385f990d9b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/clickElements.java" afterPath="$PROJECT_DIR$/src/main/java/clickElements.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/startStop.java" afterPath="$PROJECT_DIR$/src/main/java/startStop.java" />
       <change beforePath="$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java" afterPath="$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Hellpers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/clickElements.class" afterPath="$PROJECT_DIR$/target/classes/clickElements.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Etsy.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="testsForEtsyStore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="459">
+              <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -34,11 +30,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/clickElements.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="29" column="100" lean-forward="false" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
+              <caret line="37" column="151" lean-forward="false" selection-start-line="37" selection-start-column="151" selection-end-line="37" selection-end-column="151" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#3738#3739#0" expanded="true" />
+                <element signature="e#3780#3781#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,11 +43,21 @@
       <file leaf-file-name="openLinkInNewWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/openLinkInNewWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+            <state relative-caret-position="102">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginLogout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginLogout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/test/tests/Etsy.java" />
         <option value="$PROJECT_DIR$/src/main/java/hellpers.java" />
         <option value="$PROJECT_DIR$/src/main/java/startStop.java" />
-        <option value="$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/openLinkInNewWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/clickElements.java" />
       </list>
     </option>
@@ -120,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -166,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,24 +370,53 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="testsForEtsyStore.experiment" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testsForEtsyStore" />
+      <option name="METHOD_NAME" value="experiment" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.clickLikeButton" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.hromeTest.testGoogleSearch" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.clickStoreLikeButton" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.experiment" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.clickStoreLikeButton" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.hromeTest.testGoogleSearch" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.clickLikeButton" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.experiment" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.hromeTest.testGoogleSearch" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore.clickLikeButton" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.testsForEtsyStore" />
       </list>
     </recent_temporary>
   </component>
@@ -402,24 +437,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 11m 35s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 15m 12s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 17m 40s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 18m 01s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 20m 22s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 23m 12s.xml">
-      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 28m 28s.xml">
       <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
     </history-entry>
@@ -431,6 +448,24 @@
     </history-entry>
     <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.11 at 15h 35m 26s.xml">
       <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.22 at 20h 38m 27s.xml">
+      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.22 at 21h 05m 49s.xml">
+      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_clickStoreLikeButton - 2018.03.22 at 21h 07m 00s.xml">
+      <configuration name="testsForEtsyStore.clickStoreLikeButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_experiment - 2018.03.22 at 20h 52m 27s.xml">
+      <configuration name="testsForEtsyStore.experiment" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_experiment - 2018.03.22 at 20h 54m 13s.xml">
+      <configuration name="testsForEtsyStore.experiment" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testsForEtsyStore_experiment - 2018.03.22 at 20h 56m 53s.xml">
+      <configuration name="testsForEtsyStore.experiment" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -450,7 +485,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1717604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17359413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -470,7 +505,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clickElements.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -888,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginLogout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/tests/hromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -912,64 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="450" column="0" lean-forward="false" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
-          <folding>
-            <marker date="1517949956820" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1517949956820" expanded="false" signature="143:1740" ph="..." />
-            <marker date="1517949956820" expanded="true" signature="2960:3330" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="3409:3693" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="3922:4437" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="4580:4698" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="4880:7963" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="8053:8190" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="8350:8538" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="8717:9382" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="9549:11256" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="11318:11638" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="11747:13360" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="13419:13507" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="13567:14035" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="14203:15724" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="15819:15968" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="16047:16158" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="16276:16703" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="16746:16850" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="17112:30942" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="31010:31100" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="31172:31665" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="31923:32084" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="32242:32949" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="33106:34715" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="34970:35671" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="35845:46333" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="46445:46717" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="46885:47393" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="47545:48643" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="48794:49591" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="49727:49788" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="49849:49960" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="50141:51440" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="51521:53077" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="53169:53783" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="53871:54744" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="54843:55235" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="55312:55592" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="55638:55732" ph="{...}" />
-            <marker date="1517949956820" expanded="false" signature="55777:55788" ph=" { " />
-            <marker date="1517949956820" expanded="false" signature="55858:55864" ph=" }" />
-            <marker date="1517949956820" expanded="true" signature="55958:56175" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="55993:56004" ph="{}" />
-            <marker date="1517949956820" expanded="true" signature="56069:56169" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="56271:56448" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="56308:56319" ph="{}" />
-            <marker date="1517949956820" expanded="false" signature="56383:56398" ph=" { " />
-            <marker date="1517949956820" expanded="false" signature="56432:56442" ph=" }" />
-            <marker date="1517949956820" expanded="true" signature="56480:56527" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="56567:56697" ph="{...}" />
-            <marker date="1517949956820" expanded="false" signature="56645:56660" ph=" { " />
-            <marker date="1517949956820" expanded="false" signature="56681:56691" ph=" }" />
-            <marker date="1517949956820" expanded="true" signature="56731:56854" ph="{...}" />
-            <marker date="1517949956820" expanded="true" signature="56837:56848" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,36 +952,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginLogout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/openLinkInNewWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+        <state relative-caret-position="102">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/tests/testsForEtsyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clickElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="29" column="100" lean-forward="false" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
+          <caret line="37" column="151" lean-forward="false" selection-start-line="37" selection-start-column="151" selection-end-line="37" selection-end-column="151" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#3738#3739#0" expanded="true" />
+            <element signature="e#3780#3781#0" expanded="true" />
           </folding>
         </state>
       </provider>

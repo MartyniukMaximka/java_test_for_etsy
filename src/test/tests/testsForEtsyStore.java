@@ -25,5 +25,14 @@ public class testsForEtsyStore extends startStop {
 
     }
 
+    @Test
+    public void experiment() throws InterruptedException
+    {
+        clickElements.loginLogout.login();
+        clickElements.clickExperement("https://www.etsy.com/c/art-and-collectibles/collectibles/coins?ref=catnav-66");
+
+
+    }
+
     
 }
